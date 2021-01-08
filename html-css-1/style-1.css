@@ -1,0 +1,66 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+img{
+  width: 15%;
+}
+
+p{
+  font-size: 26px;
+}
+
+.container-one{
+  height: 15vh;
+  border: 1px solid #000;
+  background-color: hsl(1, 74%, 72%);
+  display: flex;
+  align-items: center;
+}
+
+.welcome{
+  flex: 1;
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.nav{
+  margin-right: 20vw;
+}
+
+.nav a{
+  flex: 1;
+  font-size: 30px;
+  text-decoration: none;
+  color: #000;
+  padding-right: 150px;
+}
+
+.container-two{
+  height: 58vh;
+  border: 5px dotted #000;
+  margin: 15px;
+  padding: 10px;
+}
+
+.container-two h1{
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.container-two img{
+  float: left;
+}
+
+.container-three{
+  height: 76vh;
+  border: 5px dotted #000;
+  margin: 15px;
+  padding: 10px;
+}
+
+.container-three img{
+  float: right;
+}
