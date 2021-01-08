@@ -8,7 +8,7 @@ img{
 }
 
 p{
-  font-size: 26px;
+  font-size: 27px;
 }
 
 .container-one{
@@ -38,16 +38,15 @@ p{
 }
 
 .container-two{
-  height: 58vh;
+  height: 67vh;
   border: 5px dotted #000;
   margin: 15px;
   padding: 10px;
 }
 
 .container-two h1{
-  margin-left: 30px;
   margin-top: 30px;
-  font-size: 30px;
+  font-size: 34px;
 }
 
 .container-two img{
@@ -55,12 +54,18 @@ p{
 }
 
 .container-three{
-  height: 76vh;
+  height: 94vh;
   border: 5px dotted #000;
   margin: 15px;
   padding: 10px;
 }
 
+.container-three h1{
+  margin-top: 30px;
+  font-size: 34px;
+}
+
 .container-three img{
+  height: 50%;
   float: right;
 }
