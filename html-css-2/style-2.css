@@ -1,0 +1,181 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+h1{
+  margin: 30px;
+  font-size: 38px;
+}
+
+h2{
+  font-size: 30px;
+  margin-left: 1vw;
+}
+
+
+.topper{
+  margin-bottom: 0;
+}
+
+.container-one{
+  height: 18vh;
+  width: 100%;
+  background-color: #89fcd6;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.container-two{
+  position: relative;
+  height: 40vh;
+  width: 97vw;
+  border: 1px dashed #000;
+  margin: 0 auto;
+  margin-bottom: 5vh;
+}
+
+.purple-box{
+  position: absolute;
+  height: 17vh;
+  width: 45vh;
+  background-color: #48187f;
+  border: 3px solid #f52d2a;
+  box-sizing: border-box;
+  margin: 23px;
+  bottom: 0;
+}
+
+.blue-box{
+  position: absolute;
+  height: 17vh;
+  width: 17vh;
+  background-color: #0035f8;
+  border: 1px solid #000;
+  box-shadow: 5px 5px 5px;
+  box-sizing: border-box;
+  margin: 23px;
+  left: 30%;
+  bottom: 0;
+}
+
+.pink-box{
+  position: absolute;
+  height: 33vh;
+  width: 33vh;
+  background-color: #d77493;
+  border: 1px solid #000;
+  margin: 23px;
+  left: 45%;
+  bottom: 0;
+}
+
+
+
+.container-three{
+  height: 55vh;
+  width: 97vw;
+  border: 1px dashed #000;
+  margin: 0 auto;
+  margin-bottom: 5vh;
+}
+
+.top{
+  height: 10vh;
+  width: 10vh;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin-top: 2vh;
+  margin-left: 12vh;
+}
+
+.top img{
+  position: absolute;
+  width: 70px;
+  z-index: -1;
+  mix-blend-mode: multiply;
+}
+
+
+
+.mid{
+  height: 17vh;
+  width: 17vh;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin-top: 0vh;
+  margin-left: 8.5vh;
+}
+
+.mid img{
+  position: absolute;
+  width: 115px;
+  z-index: -2;
+  margin-top: -27px;
+  mix-blend-mode: multiply;
+}
+
+.bottom{
+  height: 24vh;
+  width: 24vh;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin-top: 0vh;
+  margin-left: 5vh;
+  clear: both;
+}
+
+
+
+.container-four{
+  height: 50vh;
+  width: 97vw;
+  border: 1px dashed #000;
+  margin: 0 auto;
+  margin-bottom: 4vh;
+}
+
+.tan-box{
+  height: 45vh;
+  width: 45vh;
+  background-color: #f5f4de;
+  border: 1px solid #000;
+  margin: 15px;
+}
+
+.green-circle{
+  height: 35vh;
+  width: 35vh;
+  background-color: #1c7d1a;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.red-box{
+  height: 24vh;
+  width: 24vh;
+  background-color: #a22f2e;
+  margin: 38px;
+}
+
+.blue-circle{
+  height: 15vh;
+  width: 15vh;
+  background-color: #0035f8;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.container-four img{
+  width: 75px;
+  margin: 15px;
+}
+
+.red-box h3{
+  margin-left: 35px;
+  font-size: 25px;
+  color: silver;
+}
