@@ -68,10 +68,10 @@ const iLove = (name, love) => `${name} loves ${love}`
 //////////////////PROBLEM 8////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
-const faveColors = ['red', 'green', 'black']
+let faveColors = ['red', 'green', 'black']
 
 //CODE HERE
-const colorCopy = faveColors.slice()
+let colorCopy = faveColors.slice(0)
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
@@ -83,10 +83,10 @@ colorCopy.push('blue')
   numbers array that will capture only the middle numbers (2, 3, 4).
 */
 
-const numbers = [1, 2, 3, 4, 5]
+let numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
-const middleNums = numbers.slice(1, 4)
+let middleNums = numbers.slice(1, 4)
 
 // console.log(middleNums)
 //////////////////PROBLEM 11////////////////////
